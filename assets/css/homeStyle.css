@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Web_name{
+    margin-left: 50px;
+    color: rgb(32, 150, 202);
+}
+.Web_name i{
+    color: rgb(32, 150, 202);
+    margin-top: 6px;
+    margin-left: 30px;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 14px 10px;
+    margin-top: 12px;
+}
+ul{
+    background-color: rgb(248, 248, 248);
+}
+header li i{
+    font-size: 22px;
+    color: rgb(133, 133, 133);
+}
+.story{
+    display: flex;
+}
+.story >div{
+    background-color: lightgray;
+    padding: 60px 35px;
+    font-size: 14px;
+    margin: 8px;
+    border-radius: 20px;
+}
+.story .box1{
+    position: relative;
+}
+p{
+    position: absolute;
+    top: 190px;
+    font-size: 10px;
+    left: 13px;
+}
+.story_card i{
+    font-size: 20px;
+    color: azure;
+    background-color:rgb(32, 150, 202);
+    border-radius: 50%;
+    position: absolute;
+    top: 164px;
+    left: 36px;
+}
+.box1{
+    position: relative;
+}
+.profile_pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.story_card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.post_info{
+    display: inline-block;
+    
+}
+.post_info img{
+    width: 60px;
+    border-radius: 50%;
+}
+.post_info p{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: -58px;
+    left: 70px;
+}
+.time_post p{
+    position: absolute;
+    left: 74px;
+    top: 278px; 
+    font-size: 12px; 
+}
+.three_dots{
+    position: absolute;
+    margin-left: 340px;
+    top: 264px;
+    font-size: 20px;
+}
+.img_post{
+    width: 400px;
+    height: 200px;
+}
+span{
+    margin-right:0;
+}
+.feedback li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px 10px;
+    margin-top: 12px;
+}
+

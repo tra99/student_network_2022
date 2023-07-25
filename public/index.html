@@ -4,140 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets\css\homeStyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;600;700;800&family=Montserrat:wght@300;500;700;800&family=Poppins:wght@100;300;600;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/home1.css">
-    <title>Home page</title>
-
+    <title>Login page</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="Web_name">Student Network<i class="fa-sharp fa-solid fa-comments"></i></h1>
-    <header>
-      <nav>
-        <ul>
-          <div class="home_button">
-            
-          </div>
-          <li><a href="#"><i class="fa-solid fa-house home"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-gamepad"></i></a></li>
-          <li><a href="#"><i class="fa-sharp fa-solid fa-video"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-book"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="story_card">
-      <div class="story">
-        <div class="box1">
-          <div class="add_story">
-            <p>Add Your Story</p>
-          </div>
-          <div class="add_story1">
-            <i class="fa-solid fa-plus"></i>
-          </div>
-          <div class="profile_pic">
-            <img src="https://cdns-images.dzcdn.net/images/artist/06ef1107ffce5f68734ebf9690d50d6a/500x500.jpg" alt="">
-            
-          </div>
+    <div class="w-[414px] rounded-[40px] m-auto px-[10px] border-4 border-black overflow-hidden mt-2">
+      <div class="flex justify-between px-6 py-3">
+        <div>11:11 PM</div>
+        <div class="flex gap-3 text-gray-600">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full text-green-600"></i>
         </div>
-        <div class="box1">
-          <div class="profile_pic1">
-            <img src="https://www.wallpaperflare.com/static/582/764/44/portrait-display-photography-books-shelf-wallpaper.jpg" alt="">
-            <p>Bieber</p>
-          </div>
+      </div>
+      <div class="flex justify-between mt-4">
+        <div class="text-3xl font-bold text-blue-600 p-7">Login
         </div>
-        <div class="box1">
-          <div class="profile_pic2">
-            <img src="https://images.unsplash.com/photo-1550853418-bb4348ff6a80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMHJlYWRpbmclMjBib29rfGVufDB8fDB8fHww&w=1000&q=80" alt="">
-            <p>Vargas</p>
-          </div>
+        <div class="flex mr-[-60px] gap-6">
+          <div class="w-[40px] h-[40px] rounded-[20px] bg-blue-700 mt-6"></div>
+          <div class="w-[100px] h-[100px] rounded-[50px] bg-blue-700"></div>
         </div>
-        <div class="box1">
-          <div class="profile_pic3">
-            <img src="https://m.media-amazon.com/images/I/515vVCTM9xL._SL500_.jpg" alt="">
-            <p>William</p>
-          </div>
+      </div>
+      <div class="bg-gray-100 py-8 rounded-lg mt-[104px]">
+        <div class="px-8">
+          <div class="flex gap-4">
+          <i class="fa-regular fa-user text-blue-600 text-2xl"></i>
+          <input type="text" placeholder="Username" class="bg-gray-100 focus:outline-none">
         </div>
-        
+        <div class="border-b-2 border-blue-600 border-solid h-1"></div>
+      </div>
+      <div class="py-6 rounded-lg">
+        <div class="px-8">
+          <div class="flex gap-4">
+          <i class="fa-regular fa-eye-slash text-blue-600 text-xl"></i>
+          <input type="text" placeholder="Password" class="bg-gray-100 focus:outline-none">
+        </div>
+        <div class="border-b-2 border-blue-600 border-solid h-1"></div>
+      </div>
+      </div>
+      </div>
+      <div class="flex justify-between pl-5 mt-9">
+        <div class="flex gap-3 mt-2">
+          <div class="relative w-[18px] h-[18px] rounded-[10px] border-blue-600 border-2 top-[6px]">
+            <div class="absolute w-[12px] h-[12px] left-[1.3px] top-[1px] rounded-lg bg-blue-600"></div>
+          </div>
+          <div class="text-blue-600 text-lg font-semibold">Remember me</div>
+        </div>
+        <button class="text-2xl rounded-l-full font-bold text-white bg-blue-600 py-[10px] px-16 mr-[-10px]">
+          <a href="http://192.168.0.102:5500/public/pages/homePage.html">Login</a>
+        </button>
+      </div>
+      <div class="flex justify-between mt-24 pb-8">
+        <div class="flex ml-[-60px] gap-6">
+          <div class="w-[100px] h-[100px] rounded-[50px] bg-blue-700"></div>
+          <div class="w-[40px] h-[40px] rounded-[20px] bg-blue-700 mt-6"></div>
+        </div>
+        <button class="text-3xl font-bold text-blue-600 p-7 mt-[-14px]">
+          <a href="http://192.168.0.102:5500/public/pages/sign_up.html">Sign Up</a>
+        </button>
       </div>
     </div>
-
-    <main class="main">
-      <div class="post_info">
-        <div class="post_info_profile">
-          <div class="profile">
-            <img src="https://i2.wp.com/rollercoasteryears.com/wp-content/uploads/Thrive-During-Finals-.jpg?fit=1000%2C667&ssl=1" alt="Profile">
-       
-          </div>
-          <div class="user_status">
-            <span>Angela Gomes</span>
-            <div class="time_post">
-              <p>22h</p>
-              <i class="fa-solid fa-globe"></i>
-            </div>
-          </div>
-        </div>
-        <div class="three_dots">
-          <i class="fa-solid fa-ellipsis"></i>
-        </div>
-      </div>
-
-      <span class="idea_exp">one goal with differences religion</span>
-      <div class="edit_img">
-        <img class="img_post"src="https://th.bing.com/th/id/R.0fb04086bca41eb24937936564eb74eb?rik=5oaIzcvCvkDXbw&pid=ImgRaw&r=0">
-      </div>
-      <hr>
-      <div class="feedback">
-        <ul>
-          <li><i class="fa-solid fa-thumbs-up"></i> Like</li>
-          <li><i class="fa-regular fa-message"></i> Comment</li>
-          <li><i class="fa-solid fa-share"></i> Share</li>
-        </ul>
-      </div>
-      <hr>
-      
-    </main>
-    <main class="main">
-      <div class="post_info">
-        <div class="post_info_profile">
-          <div class="profile">
-            <img src="https://img.freepik.com/free-photo/happy-young-female-student-holding-notebooks-from-courses-smiling-camera-standing-spring-clothes-against-blue-background_1258-70161.jpg?w=2000" alt="Profile">
-       
-          </div>
-          <div class="user_status">
-            <span>Solana William</span>
-            <div class="time_post">
-              <p>22h</p>
-              <i class="fa-solid fa-globe"></i>
-            </div>
-          </div>
-        </div>
-        <div class="three_dots">
-          <i class="fa-solid fa-ellipsis"></i>
-        </div>
-      </div>
-
-      <span class="idea_exp">New experience with Indian young generation</span>
-      <div class="edit_img">
-        <img class="img_post"src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/Society___Trends_School_1200x768.png?VersionId=Q3FNh.gRj_4jaN6CmfrunTNQUDeGJghP&size=690:388">
-      </div>
-      <hr>
-      <div class="feedback">
-        <ul>
-          <li><i class="fa-solid fa-thumbs-up"></i> Like</li>
-          <li><i class="fa-regular fa-message"></i> Comment</li>
-          <li><i class="fa-solid fa-share"></i> Share</li>
-        </ul>
-      </div>
-      <hr>
-      
-    </main>
-
   </body>
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Friend List Page</title>
+  </head>
+<body class="font-sans">
+    <div class="w-[414px] rounded-[40px] m-auto border-4 border-black overflow-hidden">
+        <div class="px-[10px] mt-2 relative">
+            <div class="flex justify-between px-6 py-3">
+                <div>11:11 PM</div>
+                <div class="flex gap-3 text-gray-600">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full text-green-600"></i>
+                </div>
+            </div>
+        </div>
+        <div class="flex p-5 justify-center gap-5">
+            <a href="http://192.168.0.102:5500/public/pages/profile_page.html"><i class="fa-solid fa-angle-left text-3xl text-blue-500"></i></a>
+            
+            <div class="text-white font-semibold text-lg">
+                <i class="fa-solid fa-magnifying-glass absolute mt-3 pl-4"></i>
+                <input class="w-[260px] h-10 bg-blue-400 pl-10 rounded-lg" type="text" placeholder="Search">
+            </div>
+            <i class="fa-solid fa-gear text-3xl text-blue-500"></i>
+        </div>
+        <div>
+            <img src="https://wallpapers.com/images/hd/paris-eiffel-tower-myhp5s45z3duydsh.jpg" class="h-[160px] w-[100%] object-cover">
+            <div class="flex mt-[-40px] justify-between pl-6 pr-10">
+                <div>
+                    <img class="w-24 rounded-full h-24 object-cover border-2 border-blue-500 " src="https://www.sunlife.com.ph/content/dam/sunlife/regional/philippines/images/pro-student.jpg" alt="">
+                    <div class="text-xl font-bold">Username</div>
+                    <div class="text-gray-400 mt-[-4px] text-sm">Lorem Ipsum Dolor</div>
+                    <div class="text-[15px] text-gray-500 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam aliquip ex ea commodo consequat.</div>
+                    <div class="text-blue-600 font-bold underline mt-2">Contact Information</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-pen text-[30px] mt-[50px] text-blue-500"></i>
+                </div>
+            </div>
+            <div class="flex gap-6 justify-center mt-6 mb-6">
+                <button class="border-2 border-blue-600 h-10 w-40 bg-blue-600 rounded-full text-white">I am interested</button>
+                <button class="h-10 w-40 text-blue-600 rounded-full border-2 border-blue-600">Add section</button>
+            </div>
+            <hr>
+            <div class="flex justify-between px-5 py-4">
+                <div class="font-bold text-blue-600">Recommended for you</div>
+                <i class="fa-solid fa-chevron-up text-3xl text-gray-400"></i>
+            </div>
+            <div class="flex px-5 mt-[-10px] gap-6">
+                <div>
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="50" height="50" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_211_188" transform="scale(0.0078125)"/>
+                        </pattern>
+                        <image id="image0_211_188" width="128" height="128" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="mt-[-4px]">
+                    <p class="font-bold">International consultancy:</p>
+                    <p class="font-bold">Reselience and vulnerability of ...</p>
+                    <p class="font-semibold">UNICEEF</p>
+                    <p class="text-gray-400 ">Phnom Penh, Phnom Penh, Cambodia</p>
+                    <div class="flex gap-2">
+                        <img src="https://cdn-icons-png.flaticon.com/128/4729/4729355.png" class="w-6 text-white">
+                        <div class="text-xs text-gray-400">Activity recruiting</div>        
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center text-blue-500 font-bold gap-[6px]">
+                <div>Search for more</div>
+                <i class="fa-solid fa-arrow-right text-xl"></i>
+            </div>
+            <hr>
+            <footer class="flex justify-center gap-11 text-3xl sticky bottom-0 text-blue-600 bg-white pb-4 pt-2">
+                <i class="fa-solid fa-house-chimney"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-circle-plus text-[34px]"></i>
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-book-open-reader"></i>
+              </footer>
+        </div>
+    </div>
+</body>
